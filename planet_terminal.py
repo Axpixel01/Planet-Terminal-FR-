@@ -47,6 +47,6 @@ elif commande == ("/detruire"):
     question8 = input("Qui ou qu'est-ce que vous voulez détruire ?")
     print("Ok, {} détruit.".format(question8))
 elif commande == ("/help"):
-    print("Voici le menu d'aide : \n/tp : Permet de se téléporter dans un pays. \n/nuke : Permet d'anéantir une zone. \n/mute : Permet de mute. \n/kill : Permet d'élminier quelqu'un. \n/play_warframe : Permet de jouer à Warframe. \n/langue : Permet de changer la langue. \n/give : Permet de se donner n'importe quoi. \n/revive ou /ressusciter ou /rez ou /revivre : Permet de réssusciter ce que vous voulez. \n/piège : Permet de piéger n'importe quoi. \n/ping : Permet de ping quelqu'un. \n/destroy : Permet de détruire ce que vous souhaitez. \n/help ou /aide : Permet d'avoir toutes les commandes.")
+    print("Voici le menu d'aide : \n/tp : Permet de se téléporter dans un pays. \n/nuke : Permet d'anéantir une zone. \n/mute : Permet de mute. \n/kill : Permet d'élminier quelqu'un. \n/play_warframe : Permet de jouer à Warframe. \n/langue : Permet de changer la langue. \n/give : Permet de se donner n'importe quoi. \n/ressusciter : Permet de réssusciter ce que vous voulez. \n/piège : Permet de piéger n'importe quoi. \n/ping : Permet de ping quelqu'un. \n/destroy : Permet de détruire ce que vous souhaitez. \n/help ou /aide : Permet d'avoir toutes les commandes.")
 else:
     print("Erreur n°001 : Commande Inconnue. Si vous avez besoin d'aide, éxécutez la commande /help.")
