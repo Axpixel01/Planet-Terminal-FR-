@@ -17,7 +17,7 @@ if commande == ("/tp"):
     elif question == ("South Korea"):
         print("You have arrived in South Korea. Welcome.")
     else:
-        print("Error n°001-X: Unknown Argument.")
+        print("Try Except error n°277: Unrecognized arguments")
 elif commande == ("/nuke"):
     question1 = input("What area do you want to nuke ?")
     print("Alright. Area wiped out.")
@@ -50,7 +50,11 @@ elif commande == ("/js_version"):
     print("The JavaScript version is available on GitHub (French Only) : https://github.com/Axpixel01/Planet-Terminal-FR-")
 elif commande == ("/help"):
     print("Here is the help menu: \n/tp: Allows you to teleport to a country. \n/nuke: Allows you to destroy an area. \n/mute: Allows mute. \n/kill: Allows you to kill someone. \n/play_warframe: Allows you to play Warframe. \n/language: Allows you to change the language. \n/give: Allows you to give anything. \n/resurrect: Allows you to resurrect whatever you want. \n/trap: Allows you to trap anything. \n/ping: Allows you to ping someone. \n/destroy: Allows you to destroy whatever you want. \n/help: Allows you to have all the commands.")
+elif commande == (""):
+    print("Error n°101: No Arguments were put.")
+elif commande == (" "):
+    print("Try Except error n°277: Unrecognized arguments")
 else:
-    print("Error n°001: Unknown Command. If you need help, run the /help command.")
+    print("Error n°327: Unknown Command. If you need help, run the /help command.")
 
 # Traduction by : Axpixel01

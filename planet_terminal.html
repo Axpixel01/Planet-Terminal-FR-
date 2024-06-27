@@ -26,7 +26,7 @@
                 console.log('Vous êtes arrivé en Corée du Sud. Bienvenue.')
             }
             else {
-                console.log('Erreur n°001-X : Argument Inconnu.')
+                console.log('Erreur JS n°278 : Arguments non-reconnus')
             };
         }
         else if (commande === '/nuke') {
@@ -85,8 +85,14 @@
             /destroy : Permet de détruire ce que vous souhaitez. 
             /help : Permet d'avoir toutes les commandes.`)
         }
+        else if (commande === '') {
+            console.log("Erreur n°101 : Aucun Arguments n'a été mis.")
+        }
+        else if (commande === ' ') {
+            console.log("Erreur JS n°278 : Arguments non-reconnus")
+        }
         else {
-            console.log("Erreur n°001 : Commande Inconnue. Si vous avez besoin d'aide, éxécutez la commande /help.")
+            console.log("Erreur n°327 : Commande Inconnue. Si vous avez besoin d'aide, éxécutez la commande /help.")
         }
     </script>
 </html>

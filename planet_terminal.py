@@ -17,7 +17,7 @@ if commande == ("/tp"):
     elif question == ("Corée du Sud"):
         print("Vous êtes arrivé en Corée du Sud. Bienvenue.")
     else:
-        print("Erreur n°001-X : Argument Inconnu.")
+        print("Erreur Try Except n°277 : Arguments non-reconnus")
 elif commande == ("/nuke"):
     question1 = input("Quelle zone voulez-vous nuke ?")
     print("Très bien. Zone anéantie.")
@@ -50,5 +50,9 @@ elif commande == ("/version_js"):
     print("La version JavaScript est là pour une meilleure version en ligne grâce au HTML. Elle est disponible sur GitHub : https://github.com/Axpixel01/Planet-Terminal-FR-")
 elif commande == ("/help"):
     print("Voici le menu d'aide : \n/tp : Permet de se téléporter dans un pays. \n/nuke : Permet d'anéantir une zone. \n/mute : Permet de mute. \n/kill : Permet d'élminier quelqu'un. \n/play_warframe : Permet de jouer à Warframe. \n/langue : Permet de changer la langue. \n/give : Permet de se donner n'importe quoi. \n/ressusciter : Permet de réssusciter ce que vous voulez. \n/piège : Permet de piéger n'importe quoi. \n/ping : Permet de ping quelqu'un. \n/destroy : Permet de détruire ce que vous souhaitez. \n/help : Permet d'avoir toutes les commandes.")
+elif commande == (""):
+    print("Erreur n°101 : Aucun Arguments n'a été mis.")
+elif commande == (" "):
+    print("Erreur Try Except n°277 : Arguments non-reconnus")
 else:
-    print("Erreur n°001 : Commande Inconnue. Si vous avez besoin d'aide, éxécutez la commande /help.")
+    print("Erreur n°327 : Commande Inconnue. Si vous avez besoin d'aide, éxécutez la commande /help.")
