@@ -1,11 +1,11 @@
 <html>
     <script>
-        // Bienvenue sur le Planet Terminal Version 0.0.7 . Ici, vous pouvez éxécuter quelques commandes qui sont... Intéréssantes...
-        // Dernier log de màj : Ajout de la commande /destroy
+        // Bienvenue sur le Planet Terminal Version 0.0.8 . Ici, vous pouvez éxécuter quelques commandes qui sont... Intéréssantes...
+        // Dernier log de màj : Ajout de la commande /version_py
         // Si il y à des bugs, contactez moi sur Discord : axpixel01
         // language JavaScript
 
-        const version = ('0.0.7')
+        const version = ('0.0.8')
         const commande = prompt(`Bienvenue sur le Planet Terminal ${version}. Quelle commande allez-vous éxécuter ? Indiquez là juste en-dessous :`)
 
         if (commande === '/tp') {
@@ -66,6 +66,9 @@
         else if (commande === '/destroy') {
             const question8 = prompt("Qui ou qu'est-ce que vous voulez détruire ?")
             console.log(`Ok, ${question8} détruit(e).`)
+        }
+        else if (commande === '/version_py') {
+            console.log("La version Python est en Français et Anglais, et est disponible sur GitHub : https://github.com/Axpixel01/Planet-Terminal-FR-")
         }
         else if (commande === '/help') {
             console.log(`Voici le menu d'aide :
