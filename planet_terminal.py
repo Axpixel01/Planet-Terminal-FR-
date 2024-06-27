@@ -43,7 +43,7 @@ elif commande == ("/piège"):
 elif commande == ("/ping"):
     question7 = input("Séléctionnez une personne.")
     print("Ok, personne ping.")
-elif commande == ("/detruire"):
+elif commande == ("/destroy"):
     question8 = input("Qui ou qu'est-ce que vous voulez détruire ?")
     print("Ok, {} détruit.".format(question8))
 elif commande == ("/help"):
