@@ -1,0 +1,89 @@
+<html>
+    <script>
+        // Bienvenue sur le Planet Terminal Version 0.0.7 . Ici, vous pouvez éxécuter quelques commandes qui sont... Intéréssantes...
+        // Dernier log de màj : Ajout de la commande /destroy
+        // Si il y à des bugs, contactez moi sur Discord : axpixel01
+        // language JavaScript
+
+        const version = ('0.0.7')
+        const commande = prompt(`Bienvenue sur le Planet Terminal ${version}. Quelle commande allez-vous éxécuter ? Indiquez là juste en-dessous :`)
+
+        if (commande === '/tp') {
+            const question = prompt('Ou voulez vous vous téléporter ?')
+            if (question === 'Russie') {
+                console.log('Vous êtes arrivé en Russie. Bienvenue.')
+            }
+            else if (question === 'France') {
+                console.log('Vous êtes arrivé en France. Bienvenue.')
+            }
+            else if (question === 'Japon') {
+                console.log('Vous êtes arrivé au Japon. Bienvenue.')
+            }
+            else if (question === 'USA') {
+                console.log('Vous êtes arrivé aux USA. Bienvenue.')
+            }
+            else if (question === 'Corée du Sud') {
+                console.log('Vous êtes arrivé en Corée du Sud. Bienvenue.')
+            }
+            else {
+                console.log('Erreur n°001-X : Argument Inconnu.')
+            };
+        }
+        else if (commande === '/nuke') {
+            const question1 = prompt('Quelle zone voulez-vous nuke ?')
+            console.log('Très bien. Zone anéantie.')
+        }
+        else if (commande === '/mute') {
+            const question2 = prompt("Qui ou qu'est-ce que vous voulez mute ?")
+            console.log('Ok, mute.')
+        }
+        else if (commande === '/kill') {
+            const question3 = prompt('Qui voulez-vous éliminer ?')
+            console.log('Ok, personne éliminée.')
+        }
+        else if (commande === '/play_warframe') {
+            console.log('https://www.warframe.com/fr/download')
+        }
+        else if (commande === '/langue') {
+            console.log('Version anglaise disponible sur GitHub (Python uniquement)')
+        }
+        else if (commande === '/give') {
+            const question4 = prompt('Que voulez-vous avoir ?')
+            console.log(`Ok, tenez : ${question4}`)
+        }
+        else if (commande === '/ressusciter') {
+            const question5 = prompt("Qui ou qu'est-ce que vous voulez réssusciter ?")
+            console.log('Ok, réssuscité.')
+        }
+        else if (commande === '/piège') {
+            const question6 = prompt("Qui ou qu'est-ce que vous voulez piéger ?")
+            console.log('Ok, piégé.')
+        }
+        else if (commande === '/ping') {
+            const question7 = prompt('Séléctionnez une personne.')
+            console.log('Ok, personne ping.')
+        }
+        else if (commande === '/destroy') {
+            const question8 = prompt("Qui ou qu'est-ce que vous voulez détruire ?")
+            console.log(`Ok, ${question8} détruit(e).`)
+        }
+        else if (commande === '/help') {
+            console.log(`Voici le menu d'aide :
+            /tp : Permet de se téléporter dans un pays. 
+            /nuke : Permet d'anéantir une zone. 
+            /mute : Permet de mute. 
+            /kill : Permet d'élminier quelqu'un. 
+            /play_warframe : Permet de jouer à Warframe. 
+            /langue : Permet de changer la langue. 
+            /give : Permet de se donner n'importe quoi. 
+            /ressusciter : Permet de réssusciter ce que vous voulez. 
+            /piège : Permet de piéger n'importe quoi. 
+            /ping : Permet de ping quelqu'un. 
+            /destroy : Permet de détruire ce que vous souhaitez. 
+            /help : Permet d'avoir toutes les commandes.`)
+        }
+        else {
+            console.log("Erreur n°001 : Commande Inconnue. Si vous avez besoin d'aide, éxécutez la commande /help.")
+        }
+    </script>
+</html>
