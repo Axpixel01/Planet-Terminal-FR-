@@ -2,7 +2,7 @@
 # Dernier log de màj : Ajout de la commande /destroy
 # Si il y à des bugs, contactez moi sur Discord : axpixel01
 version = ("Version 0.0.7")
-commande = input("Bienvenue sur le GodAdmin Terminal {}. Quelle commande allez-vous éxécuter ? Indiquez là juste ici :".format(version))
+commande = input("Bienvenue sur le Planet Terminal {}. Quelle commande allez-vous éxécuter ? Indiquez là juste ici :".format(version))
 
 if commande == ("/tp"):
     question = input("Ou voulez vous vous téléporter ?")
@@ -45,7 +45,7 @@ elif commande == ("/ping"):
     print("Ok, personne ping.")
 elif commande == ("/destroy"):
     question8 = input("Qui ou qu'est-ce que vous voulez détruire ?")
-    print("Ok, {} détruit.".format(question8))
+    print("Ok, {} détruit(e).".format(question8))
 elif commande == ("/help"):
     print("Voici le menu d'aide : \n/tp : Permet de se téléporter dans un pays. \n/nuke : Permet d'anéantir une zone. \n/mute : Permet de mute. \n/kill : Permet d'élminier quelqu'un. \n/play_warframe : Permet de jouer à Warframe. \n/langue : Permet de changer la langue. \n/give : Permet de se donner n'importe quoi. \n/ressusciter : Permet de réssusciter ce que vous voulez. \n/piège : Permet de piéger n'importe quoi. \n/ping : Permet de ping quelqu'un. \n/destroy : Permet de détruire ce que vous souhaitez. \n/help ou /aide : Permet d'avoir toutes les commandes.")
 else:
