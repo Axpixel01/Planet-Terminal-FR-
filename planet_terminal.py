@@ -30,7 +30,7 @@ elif commande == ("/kill"):
 elif commande == ("/play_warframe"):
     print("https://www.warframe.com/fr/download")
 elif commande == ("/langue"):
-    print("Aucune autre langue n'est disponible à part le Français.")
+    print("Version anglaise disponible sur GitHub (Python uniquement)")
 elif commande == ("/give"):
     question4 = input("Que voulez-vous avoir ?")
     print("Ok, tenez :", question4)
@@ -47,6 +47,6 @@ elif commande == ("/destroy"):
     question8 = input("Qui ou qu'est-ce que vous voulez détruire ?")
     print("Ok, {} détruit(e).".format(question8))
 elif commande == ("/help"):
-    print("Voici le menu d'aide : \n/tp : Permet de se téléporter dans un pays. \n/nuke : Permet d'anéantir une zone. \n/mute : Permet de mute. \n/kill : Permet d'élminier quelqu'un. \n/play_warframe : Permet de jouer à Warframe. \n/langue : Permet de changer la langue. \n/give : Permet de se donner n'importe quoi. \n/ressusciter : Permet de réssusciter ce que vous voulez. \n/piège : Permet de piéger n'importe quoi. \n/ping : Permet de ping quelqu'un. \n/destroy : Permet de détruire ce que vous souhaitez. \n/help ou /aide : Permet d'avoir toutes les commandes.")
+    print("Voici le menu d'aide : \n/tp : Permet de se téléporter dans un pays. \n/nuke : Permet d'anéantir une zone. \n/mute : Permet de mute. \n/kill : Permet d'élminier quelqu'un. \n/play_warframe : Permet de jouer à Warframe. \n/langue : Permet de changer la langue. \n/give : Permet de se donner n'importe quoi. \n/ressusciter : Permet de réssusciter ce que vous voulez. \n/piège : Permet de piéger n'importe quoi. \n/ping : Permet de ping quelqu'un. \n/destroy : Permet de détruire ce que vous souhaitez. \n/help : Permet d'avoir toutes les commandes.")
 else:
     print("Erreur n°001 : Commande Inconnue. Si vous avez besoin d'aide, éxécutez la commande /help.")
