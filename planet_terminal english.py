@@ -1,7 +1,7 @@
-# Welcome to Planet Terminal Version 0.0.8. Here you can execute some commands which are... Interesting...
+# Welcome to Planet Terminal Version 0.0.9. Here you can execute some commands which are... Interesting...
 # Latest update log: Added the /js_version command
 # If there are any bugs, contact me on Discord: axpixel01
-version = ("Version 0.0.8")
+version = ("Version 0.0.9")
 commande = input("Welcome to Planet Terminal {}. What command will you execute ? Indicate it right here:".format(version))
 
 if commande == ("/tp"):
@@ -48,8 +48,20 @@ elif commande == ("/destroy"):
     print("Ok, {} destroyed.".format(question8))
 elif commande == ("/js_version"):
     print("The JavaScript version is available on GitHub (French Only) : https://github.com/Axpixel01/Planet-Terminal-FR-")
+elif commande == ("/god"):
+    question9 = input("Who do you want to turn into a god?")
+    print("Alright. {} has been selected".format(question9))
+elif commande == ("/action"):
+    question10 = input("What do you want to do ?")
+    print("Alright. Action completed.")
+elif commande == ("/amongus"):
+    print("SUS")
+elif commande == ("/noob"):
+    print(";-;")
+elif commande == ("/weapon"):
+    print("Here, your weapon.")
 elif commande == ("/help"):
-    print("Here is the help menu: \n/tp: Allows you to teleport to a country. \n/nuke: Allows you to destroy an area. \n/mute: Allows mute. \n/kill: Allows you to kill someone. \n/play_warframe: Allows you to play Warframe. \n/language: Allows you to change the language. \n/give: Allows you to give anything. \n/resurrect: Allows you to resurrect whatever you want. \n/trap: Allows you to trap anything. \n/ping: Allows you to ping someone. \n/destroy: Allows you to destroy whatever you want. \n/help: Allows you to have all the commands.")
+    print("Here is the help menu: \n/tp: Allows you to teleport to a country. \n/nuke: Allows you to destroy an area. \n/mute: Allows mute. \n/kill: Allows you to kill someone. \n/play_warframe: Allows you to play Warframe. \n/language: Allows you to change the language. \n/give: Allows you to give anything. \n/resurrect: Allows you to resurrect whatever you want. \n/trap: Allows you to trap anything. \n/ping: Allows you to ping someone. \n/destroy: Allows you to destroy whatever you want. \n/god : Allows you to transform someone into a god. \n/action : Allows you to perform an action. \n/amongus : SUS. \n/noob : noob. \n/weapon : Allows you to have a weapon. \n/help: Allows you to have all the commands.")
 elif commande == (""):
     print("Error n°101: No Arguments were put.")
 elif commande == (" "):

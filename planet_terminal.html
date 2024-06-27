@@ -1,11 +1,11 @@
 <html>
     <script>
-        // Bienvenue sur le Planet Terminal Version 0.0.8 . Ici, vous pouvez éxécuter quelques commandes qui sont... Intéréssantes...
+        // Bienvenue sur le Planet Terminal Version 0.0.9 . Ici, vous pouvez éxécuter quelques commandes qui sont... Intéréssantes...
         // Dernier log de màj : Ajout de la commande /version_py
         // Si il y à des bugs, contactez moi sur Discord : axpixel01
         // language JavaScript
 
-        const version = ('0.0.8')
+        const version = ('0.0.9')
         const commande = prompt(`Bienvenue sur le Planet Terminal ${version}. Quelle commande allez-vous éxécuter ? Indiquez là juste en-dessous :`)
 
         if (commande === '/tp') {
@@ -70,6 +70,29 @@
         else if (commande === '/version_py') {
             console.log("La version Python est en Français et Anglais, et est disponible sur GitHub : https://github.com/Axpixel01/Planet-Terminal-FR-")
         }
+        else if (commande === '/dieu') {
+            const question9 = prompt('Qui voulez-vous transformer en dieu ?')
+            console.log(`Très bien. ${question9} à été séléctionné.`)
+        }
+        else if (commande === '/action') {
+            const question10 = prompt('Que voulez-vous faire ?')
+            console.log('Très bien. Action effectuée.')
+        }
+        else if (commande === '/amongus') {
+            console.log('SUS')
+        }
+        else if (commande === '/noob') {
+            console.log(';-;')
+        }
+        else if (commande === '/arme') {
+            console.log('Tiens, ton arme.')
+        }
+        else if (commande === '/ref') {
+            console.log("Y'en à trop...")
+        }
+        else if (commande === '/envie_de...') {
+            console.log('Quoi ?! *TAP* Comment ça mon reuf ?!')
+        }
         else if (commande === '/help') {
             console.log(`Voici le menu d'aide :
             /tp : Permet de se téléporter dans un pays. 
@@ -83,7 +106,15 @@
             /piège : Permet de piéger n'importe quoi. 
             /ping : Permet de ping quelqu'un. 
             /destroy : Permet de détruire ce que vous souhaitez. 
-            /help : Permet d'avoir toutes les commandes.`)
+            /dieu : Permet de transformer quelqu'un en dieu. 
+            /action : Permet d'effectuer une action. 
+            /amongus : SUS. 
+            /noob : noob. 
+            /arme : Permet d'avoir une arme. 
+            /ref : Ouais j'ai plus trop d'inspi là... 
+            /envie_de... : HEY COMMENT çA ?! 
+            /help : Permet d'avoir toutes les commandes.
+            `)
         }
         else if (commande === '') {
             console.log("Erreur n°101 : Aucun Arguments n'a été mis.")
